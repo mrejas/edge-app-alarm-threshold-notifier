@@ -1,0 +1,21 @@
+{
+  "author": "IoT Open",
+  "licence": "MIT",
+  "input": {
+	  "notification_outputs": {
+		  "name": "Select notification(s)",
+		  "description": "Select the notification outputs to send notifications with.",
+		  "type": "multi_notification_output_selector"
+	  }
+  },
+  "guide": [
+    {
+      "id": "stage_1",
+      "title": "Parameter selection",
+      "description": "Notifications will be sent to the following notification outputs. Please see documentation on variables to use in the message template.",
+      "input_fields": [
+		  "notification_outputs"
+      ]
+    }
+  ]
+}
